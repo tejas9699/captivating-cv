@@ -5,15 +5,18 @@ export function Reveal({
   children,
   delay = 0,
   className = "",
+  id,
 }: {
   children: ReactNode;
   delay?: number;
   className?: string;
+  id?: string;
 }) {
   const { ref, visible } = useReveal();
   return (
     <div
       ref={ref}
+      id={id}
       data-visible={visible}
       style={{ transitionDelay: `${delay}ms` }}
       className={`reveal ${className}`}
