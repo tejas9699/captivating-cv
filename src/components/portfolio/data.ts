@@ -11,6 +11,8 @@ export const profile = {
   email: "gawaitejas9699@gmail.com",
   linkedin: "https://www.linkedin.com/in/tejas-gawai",
   github: "https://github.com/tejas9699",
+  certificateUrl:
+    "http://www.edubridgeindia.com/certificate-detail?enrollment_number=EBEON04251121599",
   photoUrl: photo.url,
   resumeUrl: resume.url,
   summary:
@@ -98,6 +100,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Work", href: "#work" },
+  { label: "Certificates", href: "#certificates" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
