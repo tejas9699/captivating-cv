@@ -44,12 +44,21 @@ export function About() {
               June 2022 – April 2025
             </p>
           </Reveal>
-          <Reveal delay={240} className="surface-card p-7">
+          <Reveal delay={240} className="surface-card p-7" id="certificates">
             <Award className="h-6 w-6 text-primary" />
             <h3 className="mt-4 text-lg font-semibold">Java Full Stack Development</h3>
             <p className="mt-1 text-sm text-muted-foreground">
               EduBridge · certified program covering SDLC, Agile and end-to-end app delivery
             </p>
+            <a
+              href={profile.certificateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-primary/80"
+            >
+              View certificate
+              <ExternalLink className="h-3.5 w-3.5" />
+            </a>
           </Reveal>
         </div>
       </div>
