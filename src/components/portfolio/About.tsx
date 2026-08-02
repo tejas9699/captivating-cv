@@ -1,5 +1,7 @@
-import { GraduationCap, Award, Sparkles } from "lucide-react";
+import { GraduationCap, Award, Sparkles, ExternalLink } from "lucide-react";
 import { Reveal, SectionHeading } from "./Section";
+import { profile } from "./data";
+
 
 const strengths = [
   "Strong logical thinking and problem-solving",
