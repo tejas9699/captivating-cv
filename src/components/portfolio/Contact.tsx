@@ -48,14 +48,8 @@ export function Contact() {
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
-              href={`mailto:${profile.email}?subject=Frontend%20opportunity%20for%20Tejas`}
-              className="glow-ring inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105"
-            >
-              <Mail className="h-4 w-4" /> Reach out to me
-            </a>
-            <a
               href={profile.phoneHref}
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-8 py-4 text-sm font-semibold transition-colors hover:border-primary hover:text-primary"
+              className="glow-ring inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105"
             >
               <Phone className="h-4 w-4" /> Call {profile.phone}
             </a>
