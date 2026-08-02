@@ -57,18 +57,6 @@ export const projects = [
       "Faster page loads via leaner code structure",
     ],
   },
-  {
-    title: "Java Full Stack Program",
-    tagline: "EduBridge certification build-outs",
-    description:
-      "Hands-on training covering SDLC, Agile delivery and end-to-end app structure — from database modelling in MySQL to API testing in Postman and interface work on the frontend.",
-    stack: ["Java", "MySQL", "Postman", "Agile"],
-    highlights: [
-      "Certified Java Full Stack Development",
-      "API debugging and request flows with Postman",
-      "Relational schema design and queries",
-    ],
-  },
 ];
 
 export const skillGroups = [
